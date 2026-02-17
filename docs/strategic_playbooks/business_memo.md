@@ -18,7 +18,7 @@ We have identified significant capital inefficiency within the multi-store catal
 *   **Impact:** These products clutter the warehouse management system, confuse the site search algorithm, and dilute brand perception. They are "Zombie Products."
 
 ### 🔄 Insight 2: The "Oriente Paradox" (Inefficiency at Scale)
-*   **Finding:** Our #1 revenue driver, *Oriente Petrolero Poleras*, is highly inefficient.
+*   **Finding:** Our #1 revenue driver, *Oriente Petrolero T-shirts*, is highly inefficient.
 *   **Detail:** While the style generates high revenue, **60% of its variant combinations** (specific secondary colors or extreme sizes) have little to no sales.
 *   **Conclusion:** We are over-investing in variety that the customer does not value. A "Best Seller" can still be an operational burden.
 
@@ -38,7 +38,7 @@ We propose a rationalization strategy based on the **Efficiency Matrix**:
 *   **Focus:** Primarily targeting the *Nebula* store's experimental collections.
 
 ### Phase 2: FIX (Optimization)
-*   **Target:** High Revenue products with High Complexity (e.g., Oriente Poleras).
+*   **Target:** High Revenue products with High Complexity (e.g., Oriente T-shirts).
 *   **Action:** **Cut Color Depth.** Instead of launching every design in 3 colors (Men/Women/Kids), reduce to **1 Core Color** (Unisex) or 2 max.
 *   **Benefit:** Reduces inventory risk by 66% per style without killing the design itself.
 
@@ -47,9 +47,3 @@ We propose a rationalization strategy based on the **Efficiency Matrix**:
 *   **Rule:** For every new collection launched, an old collection of equal size must be deprecated.
 *   **Goal:** Maintain the catalog at the new, efficient size (approx. 5,000 Active SKUs) permanently.
 
----
-
-## 4. Next Steps
-1.  **Approval:** Confirm approval to execute the "Kill List" in the backend.
-2.  **Execution:** Run the `02_action_tags.sql` script to tag products for deprecation.
-3.  **Monitor:** Track "Revenue per Active SKU" next quarter to validate efficiency gains.
