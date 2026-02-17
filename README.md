@@ -6,7 +6,7 @@
 
 ---
 
-## 📌 The Business Challenge
+### The Business Challenge
 Managing a multi-store e-commerce ecosystem (Rabbona, Victus, Nebula, Pasión Albiverde) resulted in a bloated catalog. The business was operating under a "Volume Logic"—assuming that more SKUs equaled more sales. In reality, this created:
 *   **Operational Noise:** Warehouse confusion and slower site performance.
 *   **Capital Trap:** Money tied up in inventory that never rotated.
@@ -17,7 +17,7 @@ Shift from **"Volume Blindness"** to **"Capital Efficiency"**. The goal was to b
 
 ---
 
-## 💡 Key Discoveries (The "Aha!" Moments)
+## Key Discoveries (The "Aha!" Moments)
 
 ### 1. The "Hidden 20k" (Dead Weight)
 By auditing the raw WooCommerce tables (not just sales reports), I discovered over **20,000 SKUs** that had **ZERO lifetime sales**.
@@ -34,7 +34,7 @@ The top-selling product ("Oriente Petrolero T-shirts") was financially successfu
 
 ---
 
-## 🛠️ The Solution: From SQL to Strategy
+## The Solution: From SQL to Strategy
 
 ### Step 1: Data Unification (SQL Pipeline)
 I built a robust SQL pipeline to standardize disparate data into a **Single Source of Truth**.
@@ -55,7 +55,7 @@ Instead of just a dashboard, I delivered a detailed [Business Memo](docs/strateg
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 | Folder | Content | Description |
 | :--- | :--- | :--- |
@@ -66,10 +66,10 @@ Instead of just a dashboard, I delivered a detailed [Business Memo](docs/strateg
 
 ---
 
-## 🚀 Impact Summary
+## Impact Summary
 *   **Audited:** 20,000+ Dead SKUs identified.
 *   **Efficiency:** Proposed a roadmap to cut catalog complexity by **30%**.
 *   **Clarity:** Transformed raw, messy SQL data into a clean, strategic narrative.
 
 ---
-*Created by [Your Name] - Data Analyst & Efficiency Strategist*
+This project is part of my professional portfolio demonstrating Data Analysis, SQL Engineering, and Strategic Business Intelligence.
