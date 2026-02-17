@@ -26,16 +26,9 @@ This dashboard is designed to be the "Operational Brain" for catalog rationaliza
 *   **Color Segments:** % Sold Variants vs. % Dead Variants (Never Sold).
 *   **Action:** Identify themes with high catalog bloat to cut future production.
 
-### Sheet 4: Attribute Performance (Variant Precision)
-*   **Business Question:** Are we producing colors or sizes that the market doesn't want?
-*   **Visual:** Heatmap or Bar Chart.
-*   **Metrics:** `% of Sales Share` vs. `% of Catalog Variety`.
-*   **Dimensions:** `std_color` and `std_size_list`.
-*   **Action:** Discontinue underperforming attributes (e.g., colors that represent 20% of catalog but <1% of sales).
-
 ---
 
 ## 🛠️ Data Implementation Note
 To build this in Tableau:
-1.  **DataSource:** Connect to the final table `tableau_merch_optimization`.
+1.  **DataSource:** Connect to the final archive `tableau_source.csv`.
 2.  **Why:** This table already contains the pre-calculated ratios (`dead_variant_ratio`, `rev_per_variant`) and the `action_tag` logic, making the Tableau build a simple drag-and-drop process.
